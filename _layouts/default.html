@@ -6,13 +6,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
-  <meta name="description" content="Martin Saveski">
-  <meta name="author" content="Martin Saveski">
-  <meta property="og:title" content="Martin Saveski" />
+  <meta name="description" content="Peter G Mikhael">
+  <meta name="author" content="Peter G Mikhael">
+  <meta property="og:title" content="Peter G Mikhael" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://www.martinsaveski.com" />
-  <meta property="og:site_name" content="Martin Saveski" />
-  <link rel="canonical" href="http://www.martinsaveski.com" />
+  <meta property="og:url" content="http://www.pgmikhael.com" />
+  <meta property="og:site_name" content="Peter G Mikhael" />
+  <link rel="canonical" href="http://www.pgmikhael.com" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -76,13 +76,12 @@
             <p>{{ site.data.main_info.title }}</p>
             <p>{{ site.data.main_info.email }}</p>
             <p>
-              <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </span>
 
+              <!-- 
               <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
                 <i class="fa fa-linkedin-square" aria-hidden="true"></i>
               </span>
+              -->
 
               <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
                 <i class="fa fa-github" aria-hidden="true"></i>
@@ -91,6 +90,11 @@
               <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
                 <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
               </span>
+
+              <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </span>
+
             </p>
         </div>
       </div>
@@ -102,7 +106,7 @@
         <ul class="navbar-list">
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>
+          <!-- <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li> -->
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vita</a></li>
         </ul>
       </div>
@@ -119,29 +123,34 @@
           {{ site.data.main_info.email }}
         </div>
         <div class="four columns">
-          <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-          </span>
+          <!-- 
           <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-          </span>
+          </span> 
+          -->
           <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
             <i class="fa fa-github" aria-hidden="true"></i>
           </span>
           <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
             <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
           </span>
+
+          <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </span>
+
         </div>
       </div>
     </div>
 
   </div>
 
-  <!-- Google Analytics -->
+  <!-- Google Analytics 
   {% include google_analytics.html %}
 
-  <!-- do not remove -->
+  do not remove
   <span id="62cd7b7da1aff3196fdc26b60e396df9"></span>
+  -->
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
