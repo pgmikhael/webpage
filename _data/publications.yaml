@@ -18,17 +18,18 @@ papers:
   - title: "Toward robust mammography-based models for breast cancer risk"
     authors: "Adam Yala, <b>Peter G. Mikhael</b>, Fredrik Strand, Gigin Lin, Kevin Smith, Yung-Liang Wan, Leslie Lamb, Kevin Hughes, Constance Lehman, Regina Barzilay"
     venue: "Science Translational Medicine. 2021."
-    paper_pdf: "/assets/publications/2021/YalaBarzilay21STM.pdf"
+    paper_url: "https://www.science.org/doi/10.1126/scitranslmed.aba4373"
+    #paper_pdf: "/assets/publications/2021/YalaBarzilay21STM.pdf"
     selected: y
 
   - title: "Nutrient availability shapes methionine metabolism in p16/MTAP-deleted cells"
     authors: "Sydney M. Sanderson,<b>Peter G. Mikhael</b>, Vijyendra Ramesh, Ziwei Dai, Jason W. Locasale"
     venue: "Science Advances. 2019."
-    paper_pdf: "/assets/publications/2019/19_SandersonLocasale.pdf"
+    paper_url: "https://www.science.org/doi/10.1126/sciadv.aav7769"
     selected: y
 
   - title: "Dietary methionine influences therapy in mouse cancer models and alters human metabolism"
     authors: "Xia Gao, Sydney M. Sanderson, Ziwei Dai, Michael A. Reid, Daniel E. Cooper, Min Lu, John P. Richie Jr, Amy Ciccarella, Ana Calcagnotto, <b>Peter G. Mikhael</b>, Samantha J. Mentch, Juan Liu, Gene Ables, David G. Kirsch, David S. Hsu, Sailendra N. Nichenametla, Jason W. Locasale"
     venue: "Nature. 2019."
-    paper_pdf: "/assets/publications/2019/Gao_19.pdf"
+    paper_url: "https://www.nature.com/articles/s41586-019-1437-3"
     selected: y
